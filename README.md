@@ -1,88 +1,68 @@
 # 🌍 AtlasTrip — Sistema de Gestão de Viagens
 
-Aplicação web **Full Stack** desenvolvida para consulta e organização de viagens e roteiros turísticos, utilizando **Java, Spring Boot, Next.js e TypeScript**.
+Aplicação web **full stack** para consulta de destinos, viagens e roteiros turísticos, desenvolvida com **Java, Spring Boot, Next.js e TypeScript**.
 
-O projeto tem como objetivo demonstrar conhecimentos em desenvolvimento de aplicações web, construção de APIs REST, integração entre frontend e backend e utilização de bancos de dados relacionais.
+> Projeto independente de portfólio, com informações fictícias e sem integração com sistemas internos de empresas.
 
 ## 📸 Screenshots
 
-### 🏠 Página inicial
+### Página inicial
 
-![Página inicial do AtlasTrip](screenshots/home.png)
+![Página inicial do AtlasTrip](./screenshots/home.png)
 
-### ✈️ Catálogo de viagens
+### Catálogo de viagens
 
-![Catálogo de viagens do AtlasTrip](screenshots/viagens.png)
+![Catálogo de viagens do AtlasTrip](./screenshots/viagens.png)
 
-### 🗺️ Detalhes do roteiro
+### Detalhes do roteiro
 
-![Detalhes do roteiro do AtlasTrip](screenshots/roteiro.png)
+![Detalhes do roteiro do AtlasTrip](./screenshots/roteiro.png)
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Tecnologias
 
-### Backend
-- Java
-- Spring Boot
-- Spring Data JPA
-- API REST
-- H2 Database
-- MySQL (configuração opcional)
-- Maven
+**Frontend:** Next.js, React, TypeScript e CSS.
 
-### Frontend
-- Next.js
-- React
-- TypeScript
-- CSS
-- Consumo de APIs REST
+**Backend:** Java, Spring Boot, Spring Data JPA e API REST.
 
-### Ferramentas
-- Git e GitHub
-- Visual Studio Code
+**Banco de dados:** H2 para demonstração e configuração opcional de MySQL.
 
-## ⚙️ Funcionalidades
+**Ferramentas:** Maven, Git e GitHub.
 
-- Catálogo de destinos turísticos com fotografias.
-- Consulta de viagens e datas de saída.
-- Filtros de viagens por destino.
-- Visualização de preços e informações dos pacotes.
-- Roteiros turísticos com programação diária.
-- Integração entre frontend e backend por meio de API REST.
-- Organização de informações utilizando banco de dados relacional.
-- Dados fictícios para demonstração.
+## ✨ Funcionalidades
 
-## 📁 Estrutura do projeto
+- Catálogo de destinos com fotografias.
+- Consulta de viagens, datas de saída e preços.
+- Filtros para encontrar viagens.
+- Detalhamento de roteiros com programação diária.
+- Consumo de API REST e dados fictícios para demonstração.
+
+## 📁 Estrutura
 
 ```text
 AtlasTrip/
-├── backend/          # API REST com Java e Spring Boot
-├── frontend/         # Aplicação Next.js e TypeScript
-├── screenshots/      # Imagens das telas do aplicativo
+├── backend/
+├── frontend/
+├── screenshots/
 │   ├── home.png
 │   ├── viagens.png
 │   └── roteiro.png
-├── .gitignore
 └── README.md
 ```
 
-## 💻 Como executar o projeto
+## 💻 Como executar
 
-### 1. Backend — Java e Spring Boot
+### Backend
 
-**Pré-requisitos:** Java e Maven compatíveis com o projeto.
-
-Abra um terminal na raiz do projeto e execute:
+Com Java e Maven instalados, abra um terminal na raiz do projeto:
 
 ```bash
 cd backend
 mvn spring-boot:run
 ```
 
-### 2. Frontend — Next.js
+### Frontend
 
-**Pré-requisitos:** Node.js e npm.
-
-Abra outro terminal na raiz do projeto e execute:
+Em outro terminal, também a partir da raiz:
 
 ```bash
 cd frontend
@@ -90,37 +70,15 @@ npm install
 npm run dev
 ```
 
-A aplicação estará disponível em:
+Abra [http://localhost:3000](http://localhost:3000).
 
-**http://localhost:3000**
+## 🎯 Objetivo
 
-## 🗄️ Banco de dados
-
-O projeto utiliza **H2 Database** para facilitar a execução em ambiente de desenvolvimento, permitindo testar a aplicação sem configurar um banco externo.
-
-Também possui suporte opcional ao **MySQL**, por meio das configurações do Spring Boot.
-
-## 🎯 Objetivo do projeto
-
-O AtlasTrip foi desenvolvido como um projeto independente de portfólio, utilizando informações fictícias e sem conexão com sistemas reais de empresas.
-
-A aplicação demonstra conceitos de desenvolvimento Full Stack, com foco em:
-
-- Desenvolvimento Backend com Java e Spring Boot.
-- Construção e consumo de APIs REST.
-- Integração entre aplicações frontend e backend.
-- Persistência de dados com Spring Data JPA.
-- Desenvolvimento de interfaces web com Next.js e TypeScript.
-- Organização de projetos e versionamento de código com Git.
+Demonstrar a construção de uma aplicação full stack, com foco em desenvolvimento backend com Java, criação de APIs REST e integração com uma interface web moderna.
 
 ## 👨‍💻 Autor
 
-**Gustavo Basilio Salzedas**
+**Gustavo Basilio Salzedas**  
+Formado em Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento backend.
 
-Formado em Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento Backend utilizando Java e Spring Boot.
-
-**GitHub:** [github.com/gbasilio321](https://github.com/gbasilio321)
-
----
-
-⭐ Projeto desenvolvido para fins educacionais e de portfólio profissional.
+[GitHub — gbasilio321](https://github.com/gbasilio321)
