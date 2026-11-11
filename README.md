@@ -4,17 +4,28 @@ Aplicação web full stack desenvolvida para consulta e organização de viagens
 
 O projeto foi criado para demonstrar conhecimentos em desenvolvimento de aplicações web, integração entre frontend e backend e construção de APIs REST.
 
+## Screenshots
+
+### Página inicial
+![Página inicial](screenshots/home.png)
+
+### Catálogo de viagens
+![Catálogo de viagens](screenshots/viagens.png)
+
+### Detalhes do roteiro
+![Detalhes do roteiro](screenshots/roteiro.png)
+
 ## Tecnologias utilizadas
 
-**Backend**
+### Backend
 - Java
 - Spring Boot
-- API REST
 - Spring Data JPA
+- API REST
 - H2 Database
 - MySQL (configuração opcional)
 
-**Frontend**
+### Frontend
 - Next.js
 - React
 - TypeScript
@@ -24,7 +35,7 @@ O projeto foi criado para demonstrar conhecimentos em desenvolvimento de aplica�
 
 - Catálogo de destinos turísticos com fotografias.
 - Consulta de viagens e datas de saída.
-- Filtros de viagens.
+- Filtros de viagens por destino.
 - Visualização de preços e informações dos pacotes.
 - Roteiros detalhados com programação diária.
 - Integração entre frontend e API REST.
@@ -34,16 +45,17 @@ O projeto foi criado para demonstrar conhecimentos em desenvolvimento de aplica�
 
 ```text
 AtlasTrip/
-├── frontend/     # Interface Next.js
-├── backend/      # API Java Spring Boot
+├── frontend/       # Interface Next.js
+├── backend/        # API Java Spring Boot
+├── screenshots/    # Imagens do aplicativo
 └── README.md
 ```
 
-## Como executar
+## Como executar o projeto
 
 ### Backend
 
-Requisitos: Java e Maven compatíveis com a versão do Spring Boot utilizada.
+**Pré-requisitos:** Java e Maven compatíveis com o projeto.
 
 ```bash
 cd backend
@@ -52,7 +64,7 @@ mvn spring-boot:run
 
 ### Frontend
 
-Requisitos: Node.js e npm.
+**Pré-requisitos:** Node.js e npm.
 
 ```bash
 cd frontend
@@ -60,16 +72,18 @@ npm install
 npm run dev
 ```
 
-Acesse `http://localhost:3000`.
+Acesse `http://localhost:3000` no navegador.
 
-## Objetivo
+## Objetivo do projeto
 
-O AtlasTrip é um projeto independente de portfólio, desenvolvido com dados demonstrativos e sem conexão com sistemas reais de empresas.
+O AtlasTrip é um projeto independente de portfólio, desenvolvido com dados fictícios e sem conexão com sistemas reais de empresas.
 
-Seu objetivo é apresentar habilidades de desenvolvimento full stack, com foco em Java, Spring Boot, APIs REST e integração com aplicações frontend.
+Seu objetivo é demonstrar habilidades de desenvolvimento full stack, com foco em Java, Spring Boot, APIs REST, banco de dados relacional e integração com aplicações frontend.
 
 ## Autor
 
-Gustavo Basilio Salzedas
+**Gustavo Basilio Salzedas**
 
-Desenvolvedor com formação em Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento backend Java.
+Formado em Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento Backend utilizando Java e Spring Boot.
+
+**GitHub:** [gbasilio321](https://github.com/gbasilio321)
