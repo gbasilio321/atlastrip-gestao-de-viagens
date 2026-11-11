@@ -87,3 +87,14 @@ Seu objetivo é demonstrar habilidades de desenvolvimento full stack, com foco e
 Formado em Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento Backend utilizando Java e Spring Boot.
 
 **GitHub:** [gbasilio321](https://github.com/gbasilio321)
+
+## Screenshots
+
+### Página inicial
+![Página inicial](screenshots/home.png)
+
+### Catálogo de viagens
+![Catálogo de viagens](screenshots/viagens.png)
+
+### Detalhes do roteiro
+![Detalhes do roteiro](screenshots/roteiro.png)
